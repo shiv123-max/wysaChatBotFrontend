@@ -1,0 +1,79 @@
+.screenWrapper {
+  overflow: hidden;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+}
+
+.screen::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.screen::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.screen::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(211, 211, 211);
+}
+
+.chatBubble {
+  background-color: white;
+  padding: 15px;
+  width: fit-content;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 40%;
+}
+
+.recieved {
+  align-self: flex-start;
+}
+
+.sent {
+  align-self: flex-end;
+}
+
+.chatText {
+  padding: 0;
+  margin: 0;
+}
+
+.input {
+  margin-left: 10px;
+}
+
+.inputForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox {
+  padding: 10px;
+  width: 85%;
+  border-radius: 10px;
+  border: none;
+}
